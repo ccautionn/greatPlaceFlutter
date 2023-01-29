@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\InnovaWorkspace\PersonelProject\Flutter_Demos\greatPlaceFlutter\greate_place_flutter\build\windows\CMakeFiles\5d39e04b5415e40e0bd0d726aa827bef\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{64945568-040B-3520-938F-86784FC3210E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

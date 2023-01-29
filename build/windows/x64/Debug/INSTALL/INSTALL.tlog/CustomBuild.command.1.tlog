@@ -1,0 +1,10 @@
+^C:\INNOVAWORKSPACE\PERSONELPROJECT\FLUTTER_DEMOS\GREATPLACEFLUTTER\GREATE_PLACE_FLUTTER\BUILD\WINDOWS\CMAKEFILES\5D39E04B5415E40E0BD0D726AA827BEF\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

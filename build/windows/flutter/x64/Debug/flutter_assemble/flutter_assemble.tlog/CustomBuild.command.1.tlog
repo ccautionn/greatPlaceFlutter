@@ -1,0 +1,28 @@
+^C:\INNOVAWORKSPACE\PERSONELPROJECT\FLUTTER_DEMOS\GREATPLACEFLUTTER\GREATE_PLACE_FLUTTER\BUILD\WINDOWS\CMAKEFILES\E872666B6C9BAF3BD4ECC009CE9F273E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\InnovaWorkspace\PersonelProject\Flutter_Demos\greatPlaceFlutter\greate_place_flutter FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\InnovaWorkspace\PersonelProject\Flutter_Demos\greatPlaceFlutter\greate_place_flutter\windows\flutter\ephemeral PROJECT_DIR=C:\InnovaWorkspace\PersonelProject\Flutter_Demos\greatPlaceFlutter\greate_place_flutter FLUTTER_TARGET=C:\InnovaWorkspace\PersonelProject\Flutter_Demos\greatPlaceFlutter\greate_place_flutter\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\InnovaWorkspace\PersonelProject\Flutter_Demos\greatPlaceFlutter\greate_place_flutter\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\INNOVAWORKSPACE\PERSONELPROJECT\FLUTTER_DEMOS\GREATPLACEFLUTTER\GREATE_PLACE_FLUTTER\BUILD\WINDOWS\CMAKEFILES\6525B19B7CC6240735B5E6CFB1A11BA6\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\INNOVAWORKSPACE\PERSONELPROJECT\FLUTTER_DEMOS\GREATPLACEFLUTTER\GREATE_PLACE_FLUTTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/windows -BC:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows --check-stamp-file C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,9 @@
+C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/runner/Debug/data/icudtl.dat
+C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/runner/Debug/flutter_windows.dll
+C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/InnovaWorkspace/PersonelProject/Flutter_Demos/greatPlaceFlutter/greate_place_flutter/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
