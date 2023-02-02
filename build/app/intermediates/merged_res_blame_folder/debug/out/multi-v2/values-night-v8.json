@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\InnovaWorkspace\\PersonelProject\\Flutter_Demos\\greatPlaceFlutter\\greate_place_flutter\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\InnovaWorkspace\\PersonelProject\\Flutter_Demos\\greatplaces\\greatPlaceFlutter\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\InnovaWorkspace\\PersonelProject\\Flutter_Demos\\greatPlaceFlutter\\greate_place_flutter\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\InnovaWorkspace\\PersonelProject\\Flutter_Demos\\greatplaces\\greatPlaceFlutter\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

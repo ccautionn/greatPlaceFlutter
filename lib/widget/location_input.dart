@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:greate_place_flutter/helpers/location_helper.dart';
 import 'package:location/location.dart';
+import '../screens/map_screen.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class LocationInput extends StatefulWidget {
-  const LocationInput({super.key});
+  final Function onSelectPlace;
+  const LocationInput({super.key, required this.onSelectPlace});
 
   @override
   State<LocationInput> createState() => _LocationInputState();
@@ -11,10 +15,40 @@ class LocationInput extends StatefulWidget {
 class _LocationInputState extends State<LocationInput> {
   String? _previewImageUrl;
 
+  void _showPreview(double lat, double lng) {
+    final staticMapImageUrl = LocationHelper.generateLocationPreviewImage(
+        latitude: lat, longtitude: lng);
+
+    setState(() {
+      _previewImageUrl = staticMapImageUrl;
+    });
+  }
+
   Future<void> _getCurrentUserLocation() async {
-    final locData = await Location().getLocation();
-    print(locData.longitude);
-    print(locData.latitude);
+    try {
+      final locData = await Location().getLocation();
+      _showPreview(double.parse(locData.latitude.toString()),
+          double.parse(locData.longitude.toString()));
+
+      widget.onSelectPlace(locData.latitude, locData.longitude);
+    } on Exception catch (e) {
+      return;
+    }
+  }
+
+  Future<void> _selectOnMap() async {
+    final LatLng? selectedLocation =
+        await Navigator.of(context).push<LatLng>(MaterialPageRoute(
+      fullscreenDialog: true,
+      builder: (context) => MapScreen(isSelecting: true),
+    ));
+
+    if (selectedLocation == null) return;
+
+    _showPreview(double.parse(selectedLocation.latitude.toString()),
+        double.parse(selectedLocation.longitude.toString()));
+
+    widget.onSelectPlace(selectedLocation.latitude, selectedLocation.longitude);
   }
 
   @override
@@ -49,7 +83,7 @@ class _LocationInputState extends State<LocationInput> {
                   textStyle: TextStyle(color: Theme.of(context).primaryColor)),
             ),
             TextButton.icon(
-              onPressed: () {},
+              onPressed: _selectOnMap,
               icon: const Icon(Icons.map),
               label: const Text('Select On Map'),
               style: TextButton.styleFrom(
