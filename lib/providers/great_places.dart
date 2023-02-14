@@ -24,7 +24,8 @@ class GreatPlaces with ChangeNotifier {
         id: DateTime.now().toString(),
         title: title,
         location: updatedPlaceLocation,
-        image: image);
+        image: image,
+        adress: adress);
 
     _items.add(newPlace);
     notifyListeners();
